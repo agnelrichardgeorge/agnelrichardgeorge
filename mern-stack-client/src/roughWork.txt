@@ -1,0 +1,25 @@
+App Structure
+
+--------------
+
+•src
++---• actions
+|   | 
+|   |--api.js(handle all http request)
+|   |--postMessage.js(Redux actions & action creations)
+|   |--store.js (configure redux store)
+|
++---• components
+|   |
+|   |--postMessageForm.js(form operations) - child
+|   |--postMessage.js (list of records) - parent
+|   |--useForm.js (handles common form operations)
+|
+|---• reducers
+|   |
+|   |--postMessage.js
+|   |--index.js
+|
+|-- App.js
+|-- index.js
+|-- index.css
